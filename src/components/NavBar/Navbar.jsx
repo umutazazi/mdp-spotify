@@ -4,6 +4,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import SearchBar from '../SearchBar/SearchBar';
 import { useNavigate, useLocation } from 'react-router-dom';
+import useData from '../../hook/useData';
 
 const Navbar = () => {
   const [jsonData, setJsonData] = useState(null);
